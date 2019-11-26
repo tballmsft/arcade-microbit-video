@@ -9,7 +9,8 @@
         "main.ts",
         "README.md",
         "drumIntro.ts",
-        "figures.ts"
+        "figures.ts",
+        "microbit.ts"
     ],
     "preferredEditor": "tsprj",
     "testFiles": [
