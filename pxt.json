@@ -5,12 +5,12 @@
     },
     "description": "",
     "files": [
-        "main.blocks",
         "main.ts",
         "README.md",
         "drumIntro.ts",
         "figures.ts",
-        "microbit.ts"
+        "microbit.ts",
+        "helpers.ts"
     ],
     "preferredEditor": "tsprj",
     "testFiles": [

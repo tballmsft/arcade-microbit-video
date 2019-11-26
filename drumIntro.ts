@@ -23,10 +23,11 @@ function emoji(img: Image, x: number, y: number, s: number, color: number = 6, a
 
 function drumIntro() {
     scene.setBackgroundColor(0)
+    scene.setBackgroundImage(microbit)
     let back = image.create(160, 120)
+    let spriteBack = sprites.create(back)
     for(let s=0; s<4; s += 0.1) {
         emoji(back, 80, 60, s, 5, false)
-        scene.setBackgroundImage(back)
         pause(100)
     }
     emoji(back, 80, 60, 4, 5, true)
