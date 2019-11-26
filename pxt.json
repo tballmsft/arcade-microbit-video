@@ -10,7 +10,8 @@
         "drumIntro.ts",
         "figures.ts",
         "microbit.ts",
-        "helpers.ts"
+        "helpers.ts",
+        "wipes.ts"
     ],
     "preferredEditor": "tsprj",
     "testFiles": [

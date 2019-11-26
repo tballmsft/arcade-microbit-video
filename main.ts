@@ -5,6 +5,15 @@ drumIntro()
 
 // I want my micro:bit"
 
+// square stamp (wipe/transition) changes rounded icon into square
+
+basic.pause(1000)
+let mbit = scaleUp(microbit, 7)
+let mbitS = sprites.create(mbit)
+mbitS.y = 148
+mbitS.x = 85
+
+
 // I want my micro:bit"
 
 // She has a bit in her pocket,
